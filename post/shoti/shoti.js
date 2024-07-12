@@ -1,6 +1,6 @@
 const axios = require("axios");
 
-exports.name = "/shoti";
+exports.name = "/api/shoti";
 exports.index = async (req, res) => {
   try {
     const response = await axios.post(
